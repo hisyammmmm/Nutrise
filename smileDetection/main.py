@@ -1,6 +1,8 @@
 import cv2
 from mtcnn.mtcnn import MTCNN
 
+#tes tes
+
 detector = MTCNN()
 cap = cv2.VideoCapture(0) #Mengakses kamera (index 0 berarti kamera default)
 
